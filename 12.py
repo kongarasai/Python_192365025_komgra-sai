@@ -1,0 +1,12 @@
+n=5
+t1=0
+t2=1
+t=t1+t2
+i=1
+print(t1,t2,end=" ")
+while(i<=n):
+    print(t,end=" ")
+    t1=t2
+    t2=t
+    t=t1+t2
+    i=i+1
