@@ -1,0 +1,11 @@
+def bubble():
+    n = [6, 5, 4, 3, 2, 1]  # Use a list instead of a set
+    for i in range(len(n)):  # Use len(n) to get the length of the list
+        for j in range(0, len(n)-i-1):
+            if n[j] > n[j+1]:  # Compare adjacent elements
+                temp = n[j]
+                n[j] = n[j+1]
+                n[j+1] = temp
+    print(n)
+
+bubble()
