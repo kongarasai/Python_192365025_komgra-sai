@@ -1,0 +1,27 @@
+a="happy birthday"
+print(a.capitalize())
+print(a.upper())
+print(a.lower())
+print(a.title())
+print(a.swapcase())
+print(a.split())
+print(a.center(19,'*'))
+print(a.count('h'))
+print(a.replace('very','good'))
+b="happy"
+a="-"
+a="1234567"
+print(a.join(b))
+print(a.isupper())
+print(a.islower())
+print(a.isalpha())
+print(a.isalnum())
+print(a.isdigit())
+print(a.isspace())
+print(a.istitle())
+print(a.startswith("1"))
+print(a.endswith("7"))
+print(a.find("happy"))
+print(len(a))
+print(min(a))
+print(max(a))
