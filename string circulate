@@ -1,0 +1,10 @@
+def circulate_string(string, shift):
+    length = len(string)
+    shift %= length  
+    if shift == 0:   
+        return string
+    return string[shift:] + string[:shift]
+original_string = "Hello, World!"
+shifted_string = circulate_string(original_string, 3)  
+print("Original String:", original_string)
+print("Shifted String:", shifted_string)
