@@ -1,0 +1,10 @@
+month=input("month")
+day=int(input("day"))
+if month=="march" and day>=20 or month=="april" or month=="may" or month=="june" and day<21:
+    print("spring")
+elif month=="june" and day>=21 or month=="july" or month=="august" or month=="september" and day<22:
+    print("summer")
+elif month=="september" and day>=22 or month=="october" or month=="november" or month=="december" and day<21:
+    print("fall")
+else:
+    print("winter")
