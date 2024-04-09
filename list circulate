@@ -1,0 +1,14 @@
+def circulate_list(lst, shift):
+    length = len(lst)
+    shift %= length  # Ensure shift is within the length of the list
+
+    if shift == 0:  # No need to circulate if shift is 0
+        return lst
+
+    return lst[-shift:] + lst[:-shift]
+
+# Example usage:
+original_list = [1, 2, 3, 4, 5]
+shifted_list = circulate_list(original_list, 2)  # Shift 2 positions to the right
+print("Original List:", original_list)
+print("Shifted List:", shifted_list)
