@@ -1,0 +1,2 @@
+n="Abc-abc"
+print(n[::-1])
