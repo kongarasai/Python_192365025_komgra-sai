@@ -1,0 +1,29 @@
+a={1:"one",2:"two"}
+print(a)
+print(a[1])
+a[1]="0NE"
+print(a[1])
+a[3]="three"
+print(a)
+print(1 in a)
+b=a.copy()
+print(b)
+print(a.items())
+print(a.keys())
+print(a.values())
+print(a.pop(3))
+print(a)
+a.setdefault(3,"three")
+print(a)
+a.setdefault(2)
+b={4:"four"}
+a.update(b)
+print(a)
+key={"apple","ball"}
+value="for kids"
+d=dict.fromkeys(key,value)
+print(d)
+print(len(a))
+a.clear()
+print(a)
+del(a)
