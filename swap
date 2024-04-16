@@ -1,0 +1,10 @@
+a=20
+b=50
+temp = a
+a = b
+b = temp
+print("value after swapping is",a,b)
+c=20
+d=50
+(c,d)=(d,c)
+print("value after swapping is ",a,b)
