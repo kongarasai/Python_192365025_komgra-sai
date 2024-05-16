@@ -1,0 +1,6 @@
+file_path = input("Enter the file path: ") 
+strings_list = ["Hello", "World", "Python", "Programming"] 
+with open("ooo.py", 'w') as file:
+    for string in strings_list:
+        file.write(string + "\n") 
+print("List of strings has been written to the file successfully!")
